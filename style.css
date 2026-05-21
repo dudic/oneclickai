@@ -168,6 +168,8 @@ h3 { font-size: 1rem; line-height: 1.25; margin-bottom: 6px; }
 
 .two-column { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; align-items: stretch; }
 .text-card { padding: 28px; }
+.text-card a { color: var(--blue-dark); text-decoration: underline; text-underline-offset: 2px; }
+.text-card a:hover { color: var(--blue); }
 .highlight-list { display: grid; gap: 18px; align-content: center; }
 .highlight-list p { padding-left: 18px; border-left: 3px solid rgba(37,99,235,0.22); }
 .compact { padding-top: 34px; }
