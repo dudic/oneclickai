@@ -92,7 +92,13 @@ h1 { font-size: clamp(2.7rem, 7vw, 5rem); line-height: 0.98; letter-spacing: -0.
 h2 { font-size: clamp(1.7rem, 3vw, 2.45rem); line-height: 1.1; letter-spacing: -0.035em; margin-bottom: 14px; }
 h3 { font-size: 1rem; line-height: 1.25; margin-bottom: 6px; }
 .lead { font-size: 1.2rem; color: var(--muted); max-width: 650px; }
-.hero-features { margin: 28px 0 32px; grid-template-columns: repeat(3, 1fr); }
+.hero-features {
+  display: grid;
+  width: 100%;
+  margin: 28px 0 32px;
+  gap: 16px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
 .hero-features .feature-card {
   text-align: center;
   min-height: unset;
@@ -155,7 +161,9 @@ h3 { font-size: 1rem; line-height: 1.25; margin-bottom: 6px; }
 .step-card img { aspect-ratio: 16/11; width: 100%; object-fit: cover; border-radius: 12px; border: 1px solid var(--line); background: #111; margin-bottom: 14px; }
 
 .feature-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 16px; }
+.hero .hero-features { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .feature-card { text-align: center; min-height: 210px; }
+.hero-features .feature-card { min-height: unset; width: 100%; }
 .feature-card span { font-size: 2rem; display: inline-grid; place-items: center; width: 58px; height: 58px; border-radius: 18px; background: #f8fafc; border: 1px solid var(--line); margin-bottom: 16px; }
 
 .two-column { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; align-items: stretch; }
