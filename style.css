@@ -110,10 +110,16 @@ h3 { font-size: 1rem; line-height: 1.25; margin-bottom: 6px; }
 }
 .hero-features .feature-card span {
   margin-bottom: 0;
-  width: 48px;
-  height: 48px;
-  font-size: 1.5rem;
-  border-radius: 14px;
+  display: inline-grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  padding: 2px;
+  font-size: 2.5rem;
+  line-height: 1;
+  border-radius: 50%;
+  background: #f8fafc;
+  border: none;
 }
 .hero-features .feature-card h3 { margin-bottom: 0; }
 .tech-list .tech-item {
@@ -138,11 +144,25 @@ h3 { font-size: 1rem; line-height: 1.25; margin-bottom: 6px; }
 .tech-list .tech-label {
   line-height: 1.2;
 }
-.actions, .download-actions { display: flex; gap: 14px; flex-wrap: wrap; align-items: center; }
+.actions, .download-actions { display: flex; gap: 14px; flex-wrap: wrap; align-items: flex-start; }
 .download-actions { justify-content: flex-end; margin-left: auto; flex-shrink: 0; }
+.download-primary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+.download-note {
+  margin: 0;
+  color: rgba(165, 167, 172, 1);
+  font-size: 0.75rem;
+  line-height: 1.2;
+  text-align: center;
+}
 .hero .actions { justify-content: center; }
 .hero .note { text-align: center; }
 .button { display: inline-flex; justify-content: center; align-items: center; min-height: 48px; padding: 0 20px; border-radius: 14px; font-weight: 800; border: 1px solid var(--line); }
+.button-icon { width: 0.95em; height: 0.95em; margin-right: 0.45em; flex-shrink: 0; }
 .button.primary { color: white; background: linear-gradient(180deg, #3b82f6, var(--blue)); border-color: rgba(37, 99, 235, 0.25); }
 .button.primary:hover { background: linear-gradient(180deg, #2563eb, var(--blue-dark)); }
 .button.secondary { background: rgba(255,255,255,0.85); }
