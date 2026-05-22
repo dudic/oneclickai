@@ -179,12 +179,24 @@ Das Distributable wurde gebaut mit:
 
 Dieses Projekt entstand im Rahmen des:
 
-- Climate Week Zürich
-- Green Tech Hackathon
+- [Climate Week Zürich](https://www.climateweekzurich.org/)
+- [Green Tech Hackathon](https://climateaction.tech/blog/green-tech-hackathon-round-3/) (Round 3, Mai 2026)
+
+Webseite mit dem Modell-Auswahl und Download-Ablauf unserer Hackathon-Gruppe:
+
+- [Simplon.off](https://simplon-off.ch/) – ein KI-Guide für den Laptop
 
 Die Idee hinter OneClickAI:
 
 > KI zugänglicher, privater und ressourcenschonender machen.
 
 Anstatt jede Anfrage über entfernte Cloud-Rechenzentren laufen zu lassen, bringt OneClickAI moderne KI direkt auf den eigenen Laptop.
+
+---
+
+# 📬 Kontakt
+
+**David Weiss**
+
+🔗 [LinkedIn](https://www.linkedin.com/in/davidcweiss/)
 
